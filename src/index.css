@@ -28,3 +28,11 @@
         hsla(242,74%,61%,0.8)
     )!important;
 }
+#preloader {
+    background: white url('./assets/loader.gif') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: 30%;
+    z-index: 100;
+}
