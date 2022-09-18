@@ -19,9 +19,9 @@ const Contact = () => {
             <textarea className='bg-[#d0f9d5] p-2' rows='10' name='message' placeholder='Message'/>
             <button className='text-white border-2 my-8 mx-auto py-3 px-4 hover:bg-yellow-500 hover:border-yellow-500 flex items-center'>Let's Collaborate!</button>
         </form>
-        <span className=" duration-300 ">
+        <span>
         <Link onClick={arrowClick} to={`${arrow ? "home" : "contact" }`} smooth={true} duration={900}>
-              <BsArrowDownShort className={`bottom-10 right-10 fixed  rounded-full w-10 h-10 bg-green-500 border-none
+              <BsArrowDownShort className={`bottom-10 right-10 fixed  rounded-full w-10 h-10 bg-green-500
                 ${arrow ? 'rotate-180' : ''}
               `} />
               </Link>
