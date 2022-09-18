@@ -9,7 +9,7 @@ const Contact = () => {
   }
   return (
     <div name="contact" className="bg-[#0c1c0e] w-full h-screen flex justify-center items-center p-4 ">
-        <form method='POST' action='https://getform.io/f/50f92bd4-2033-448f-8534-c1e833bc163e' className='flex flex-col max-w-[600px] w-full'>
+        <form method='POST' action='https://getform.io/f/50f92bd4-2033-448f-8534-c1e833bc163e' className='flex flex-col max-w-[600px]'>
             <div className='pb-8'>
                 <p className='text-gray-300 font-bold text-4xl inline border-b-4 border-yellow-300 '>Contact</p>
                 <p className='text-gray-300 py-4'>// Submit the form or shoot me an email - myemail@gmail.com</p>
