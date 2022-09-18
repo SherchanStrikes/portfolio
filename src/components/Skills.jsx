@@ -7,7 +7,7 @@ import NODE from "../assets/node.png"
 import GIT from "../assets/github.png"
 const Skills = () => {
   return (
-    <div className='w-full h-screen bg-[#0c1c0e] text-gray-300' name='skills'>
+    <div className='w-full h-screen bg-[#0c1c0e] text-gray-300 ' name='skills'>
         <div className="max-w-[1000px] w-full h-full flex flex-col justify-center mx-auto p-4">
             <div>
                 <p className="text-4xl font-bold inline border-b-4 border-yellow-300">Skills</p>

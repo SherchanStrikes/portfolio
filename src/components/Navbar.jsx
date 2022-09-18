@@ -57,38 +57,38 @@ const Navbar = () => {
 
       {/* HAMBURGER */}
       <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
-        {nav ? <FaTimes /> : <FaBars />}
+        {nav ? <FaTimes className="text-green-900" /> : <FaBars />}
       </div>
       {/* MOBILE */}
 
       <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0c1c0e] flex flex-col justify-center items-center"
-        }
+        className={`absolute top-0 right-0 w-[35vw] h-screen bg-[#f2ad46] flex flex-col justify-center items-center ${
+          nav
+            ? 'translate-x-0'
+            : "translate-x-full"
+        }  transition ease-in-out duration-500`}
       >
-        <li className="py-6 text-2xl">
+        <li className="py-6 text-2xl text-green-900 font-bold ">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-2xl">
+        <li className="py-6 text-2xl text-green-900 font-bold">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-2xl">
+        <li className="py-6 text-2xl text-green-900 font-bold">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-2xl">
+        <li className="py-6 text-2xl text-green-900 font-bold">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-6 text-2xl">
+        <li className="py-6 text-2xl text-green-900 font-bold">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -116,9 +116,8 @@ const Navbar = () => {
               <FaGithub size={30} />
             </a>
           </li>
-            <Link to="contact" smooth={true} duration={500}>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-              
+          <Link to="contact" smooth={true} duration={500}>
+            <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
               <a
                 className="flex justify-between items-center w-full text-gray-300"
                 href="/"
@@ -126,8 +125,8 @@ const Navbar = () => {
                 Email
                 <HiOutlineMail size={30} />
               </a>
-          </li>
-            </Link>
+            </li>
+          </Link>
           {/* <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
