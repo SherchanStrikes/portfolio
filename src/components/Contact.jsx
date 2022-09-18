@@ -21,7 +21,7 @@ const Contact = () => {
         </form>
         <span>
         <Link onClick={arrowClick} to={`${arrow ? "home" : "contact" }`} smooth={true} duration={900}>
-              <BsArrowDownShort className={`bottom-10 right-10 fixed  rounded-full w-10 h-10 bg-green-500
+              <BsArrowDownShort className={`bottom-10 right-10 fixed  rounded-full w-10 h-10 bg-green-500 cursor-pointer
                 ${arrow ? 'rotate-180' : ''}
               `} />
               </Link>
