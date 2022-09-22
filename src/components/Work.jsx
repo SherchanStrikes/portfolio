@@ -1,6 +1,5 @@
 import React from "react";
 import workImg from "../assets/workImg.png";
-import workImg2 from "../assets/workImg2.png";
 import workImg3 from "../assets/todolist.png";
 import workImg4 from "../assets/bootcamp.png";
 const Work = () => {
@@ -37,24 +36,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${workImg2})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/*Hover */}
-            <div className="opacity-0 group-hover:opacity-30">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Landing Page
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://sherchanstrikes.github.io/react-website-finale">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+          
           <div
             style={{ backgroundImage: `url(${workImg3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
