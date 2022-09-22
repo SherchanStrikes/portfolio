@@ -17,7 +17,7 @@ const Work = () => {
           <p className="py-6">// Check out some of my recent work</p>
         </div>
         {/*Container */}
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3   gap-6">
           {/*Grid Item */}
           <div
             style={{ backgroundImage: `url(${workImg})` }}
@@ -26,7 +26,7 @@ const Work = () => {
             {/*Hover */}
             <div className="opacity-0 group-hover:opacity-30">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Auction Bidding Website
+                Auction Website
               </span>
               <div className="pt-8 text-center">
                 <a href="https://github.com/teammandala/mandalas">
