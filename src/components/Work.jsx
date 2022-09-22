@@ -19,7 +19,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-60">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Auction Bidding Website
               </span>
@@ -33,11 +33,29 @@ const Work = () => {
             </div>
           </div>
           <div
+            style={{ backgroundImage: `url(${workImg})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover */}
+            <div className="opacity-0 group-hover:opacity-60">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Todo List App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://sherchanstrikes.github.io/Todo-List/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
             style={{ backgroundImage: `url(${workImg2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-60">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Landing Page
               </span>
