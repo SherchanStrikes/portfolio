@@ -1,6 +1,7 @@
 import React from "react";
 import workImg from "../assets/workImg.png";
 import workImg2 from "../assets/workImg2.png";
+import workImg3 from "../assets/todolist.png";
 const Work = () => {
   return (
     <div name="work" className="w-full h-screen md:h-screen text-gray-300 bg-[#0c1c0e] ">
@@ -19,7 +20,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover */}
-            <div className="opacity-0 group-hover:opacity-60">
+            <div className="opacity-0 group-hover:opacity-30">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Auction Bidding Website
               </span>
@@ -33,11 +34,11 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${workImg3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover */}
-            <div className="opacity-0 group-hover:opacity-60">
+            <div className="opacity-0 group-hover:opacity-30">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Todo List App
               </span>
@@ -55,7 +56,7 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover */}
-            <div className="opacity-0 group-hover:opacity-60">
+            <div className="opacity-0 group-hover:opacity-30">
               <span className="text-2xl font-bold text-white tracking-wider">
                 Landing Page
               </span>
