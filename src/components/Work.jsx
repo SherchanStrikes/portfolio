@@ -5,7 +5,10 @@ import workImg3 from "../assets/todolist.png";
 import workImg4 from "../assets/bootcamp.png";
 const Work = () => {
   return (
-    <div name="work" className="w-full h-screen md:h-screen text-gray-300 bg-[#0c1c0e] ">
+    <div
+      name="work"
+      className="w-full h-screen md:h-screen text-gray-300 bg-[#0c1c0e] "
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-yellow-300 text-gray-300">
@@ -69,7 +72,6 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
           </div>
           <div
             style={{ backgroundImage: `url(${workImg4})` }}
